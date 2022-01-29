@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "module": "ES2020",
+        "moduleResolution": "node",
+        "outDir": "./dist/esm",
+        "rootDir": "./src",
+        "target": "ES2015",
+        "strict": false
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/tests/*"]
+}
